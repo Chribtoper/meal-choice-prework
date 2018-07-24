@@ -1,4 +1,3 @@
-choice = "meat"
-def meal_choice(choice)
-puts choice
+def meal_choice (choice = "meat")
+  choice
 end
